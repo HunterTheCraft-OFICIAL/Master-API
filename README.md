@@ -3,3 +3,9 @@
 
 * Projeto da Imersão Alura Dev Back-end com Gemini
 
+
+## No Projeto a Versão Representa o Vídeo #01 da Aula
+Dev_Back-end_#01_v0.0.1
+
+https://youtu.be/yqFL6SxTaD4?si=4qw5pMVsSmkE1GAs
+
