@@ -6,5 +6,5 @@ console.log("Servidor Escutando…");
 });
 
 app.get("/api", (req, res) => {
-res.status(200).send("Boas Vindas a Imersão!");
+res.status(200).send("Boas Vindas à Imersão!");
 });

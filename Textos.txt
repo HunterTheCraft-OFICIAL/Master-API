@@ -8,3 +8,6 @@ import express from "express";
 
 //vou tentar usar o abaixo. Não será necessário 
 const express = require("express");
+
+//Link funcionando 
+http://localhost:3000/api
