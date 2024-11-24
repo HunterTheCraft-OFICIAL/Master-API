@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/HunterTheCraft-OFICIAL/Master-API/issues"
   },
-  "homepage": "https://github.com/HunterTheCraft-OFICIAL/Master-API#readme"
+  "homepage": "https://github.com/HunterTheCraft-OFICIAL/Master-API#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
 }
