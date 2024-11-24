@@ -1,0 +1,10 @@
+
+
+//Iniciação
+node server.js
+
+//bug
+import express from "express";
+
+//vou tentar usar o abaixo
+const express = require("express");
