@@ -1,0 +1,24 @@
+
+
+//Iniciação
+node server.js
+
+//bug - o Bug persiste apenas no Termux
+import express from "express";
+
+//vou tentar usar o abaixo. Não será necessário 
+const express = require("express");
+
+//Link funcionando 
+http://localhost:3000/api
+
+//Status de Responta mais informações 
+http.cat
+
+100> //Continue
+200> //Sucesso 
+300> //Redirecionamentos 
+400> //Erros da Faixa do Cliente 
+500> //Erros da Faixa do Servidor 
+
+//Base de Dados
