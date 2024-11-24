@@ -3,8 +3,8 @@
 //Iniciação
 node server.js
 
-//bug
+//bug - o Bug persiste apenas no Termux
 import express from "express";
 
-//vou tentar usar o abaixo
+//vou tentar usar o abaixo. Não será necessário 
 const express = require("express");
