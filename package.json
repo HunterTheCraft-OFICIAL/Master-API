@@ -1,0 +1,19 @@
+{
+  "name": "master-api",
+  "version": "0.0.1",
+  "description": "Criando minha API com a Alura no Projeto [Alura Imersão Dev Back-end com Gemini]",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HunterTheCraft-OFICIAL/Master-API.git"
+  },
+  "author": "HunterTheCraft-OFICIAL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HunterTheCraft-OFICIAL/Master-API/issues"
+  },
+  "homepage": "https://github.com/HunterTheCraft-OFICIAL/Master-API#readme"
+}
