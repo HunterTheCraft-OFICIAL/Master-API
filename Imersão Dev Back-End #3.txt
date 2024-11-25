@@ -1,1 +1,37 @@
 Dev_Back-end_#03_v0.0.1
+
+const posts = [{
+        id: 1,
+        Descrição: "Uma foto teste",
+        imagem: "https://placecats.com/millie/300/150"
+    },
+    {
+        id: 2,
+        Descrição: "Paisagem montanhosa",
+        imagem: "https://picsum.photos/seed/picsum/200/300"
+    },
+    {
+        id: 3,
+        Descrição: "Cachorro brincando no parque",
+        imagem: "https://source.unsplash.com/random/200x300/?dog,park"
+    },
+    {
+        id: 4,
+        Descrição: "Pratos deliciosos de um restaurante",
+        imagem: "https://unsplash.com/photos/food"
+    },
+    {
+        id: 5,
+        Descrição: "Uma cidade vibrante à noite",
+        imagem: "https://source.unsplash.com/random/200x300/?city,night"
+    },
+    {
+        id: 6,
+        Descrição: "Uma obra de arte abstrata",
+        imagem: "https://picsum.photos/seed/art/200/300"
+    }
+];
+
+descrição: Uma Imagem
+imgUrl: "https://placecats.com/millie/300/150"
+alt: Uma imagem de Gato para testar

@@ -1,4 +1,13 @@
-import express from "express";
+//import express from "express";
+//import conectarAoBanco from "./src/config/dbconfig.js";
+
+//Para Funcionamento via Termux
+const express = require("express");
+const conectarAoBanco = require("./src/config/dbconfig.js");
+
+await conectarAoBanco(process.env.STRING_CONEXAO);
+
+//console.log(process.env.STRING_CONEXAO)
 
 const posts = [{
         id: 1,
@@ -14,21 +23,6 @@ const posts = [{
         id: 3,
         Descrição: "Cachorro brincando no parque",
         imagem: "https://source.unsplash.com/random/200x300/?dog,park"
-    },
-    {
-        id: 4,
-        Descrição: "Pratos deliciosos de um restaurante",
-        imagem: "https://unsplash.com/photos/food"
-    },
-    {
-        id: 5,
-        Descrição: "Uma cidade vibrante à noite",
-        imagem: "https://source.unsplash.com/random/200x300/?city,night"
-    },
-    {
-        id: 6,
-        Descrição: "Uma obra de arte abstrata",
-        imagem: "https://picsum.photos/seed/art/200/300"
     }
 ];
 
@@ -43,12 +37,12 @@ app.get("/posts", (req, res) => {
 });
 
 function buscarPostPorId(id) {
-return posts.findIndex((post) => {
-return post.id === Number(id)
-});
+    return posts.findIndex((post) => {
+        return post.id === Number(id)
+    });
 }
 
 app.get("/posts/:id", (req, res) => {
- const index = buscarPostPorId(req.params.id)
+    const index = buscarPostPorId(req.params.id)
     res.status(200).json(posts[index]);
 });

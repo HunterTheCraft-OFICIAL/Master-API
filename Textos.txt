@@ -31,3 +31,7 @@ http://localhost:3000/posts
 MongoDB - Nuvem
 mongoatlas
 
+
+
+//Iniciar
+npm run dev
