@@ -12,6 +12,7 @@ const express = require("express");
 //Link funcionando 
 http://localhost:3000/api
 
+
 //Status de Responta mais informações 
 http.cat
 
@@ -24,29 +25,5 @@ http.cat
 //Base de Dados
 
 
-const posts = [
-    {
-        Descrição: "Uma foto teste",
-        imagem: "https://placecats.com/millie/300/150"
-    },
-    {
-        Descrição: "Paisagem montanhosa",
-        imagem: "https://picsum.photos/seed/picsum/200/300"
-    },
-    {
-        Descrição: "Cachorro brincando no parque",
-        imagem: "https://source.unsplash.com/random/200x300/?dog,park"
-    },
-    {
-        Descrição: "Pratos deliciosos de um restaurante",
-        imagem: "https://unsplash.com/photos/food"
-    },
-    {
-        Descrição: "Uma cidade vibrante à noite",
-        imagem: "https://source.unsplash.com/random/200x300/?city,night"
-    },
-    {
-        Descrição: "Uma obra de arte abstrata",
-        imagem: "https://picsum.photos/seed/art/200/300"
-    }
-];
+
+http://localhost:3000/posts
