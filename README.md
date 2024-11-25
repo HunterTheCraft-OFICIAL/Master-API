@@ -3,6 +3,7 @@
 
 * Projeto da Imersão Alura Dev Back-end com Gemini
 
+|  |  |  |
 |------------------------------------------|-----|-----|
 | **Alura** [Imersão Dev Back-end] com Gemini | Aula | ✅❎ |
 | Desvendado APIs e Servidores | #1 | ✅ |
