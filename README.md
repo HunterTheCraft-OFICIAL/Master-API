@@ -30,6 +30,8 @@ https://youtu.be/j-qIRKTZKos?si=-uVnUDniB-mtxfVL
 
 ## No projeto a Versão Representa o Vídeo #03 da Aula
 
+[Refatoração do Código muita coisa mudou de lugar]
+
 [**Em Desenvolvimento…**]
 Aguardando…
 
