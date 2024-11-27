@@ -1,5 +1,8 @@
 import { MongoClient } from 'mongodb';
 
+//para Termux
+//const MongoClient = require("mongodb");
+
 export default async function conectarAoBanco(stringConexao) {
     let mongoClient;
 

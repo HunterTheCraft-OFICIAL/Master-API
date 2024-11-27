@@ -1,9 +1,9 @@
-import express from "express";
-import routes from "./src/routes/postsRoutes.js";
+//import express from "express";
+//import routes from "./src/routes/postsRoutes.js";
 
 //para Termux
-import express = require("express");
-import routes = require("./src/routes/postsRoutes.js");
+const express = require("express");
+const routes = require("./src/routes/postsRoutes.js");
 
 const app = express();
 
