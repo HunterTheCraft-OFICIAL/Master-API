@@ -1,4 +1,5 @@
 import { getTodosPosts } from "../models/postsModels.js";
+import fs from "fs-extra";
 
 //para Termux
 //const getTodosPosts = require("../models/postsModels.js");

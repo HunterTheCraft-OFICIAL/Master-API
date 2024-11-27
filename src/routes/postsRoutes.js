@@ -1,4 +1,5 @@
 import express from "express";
+import fs from "fs-extra";
 import { listarPosts } from "../controllers/postsController.js";
 
 //para Termux

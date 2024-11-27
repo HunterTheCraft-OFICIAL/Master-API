@@ -1,4 +1,5 @@
 import express from "express";
+import fs from "fs-extra";
 import routes from "./src/routes/postsRoutes.js";
 
 //para Termux

@@ -1,4 +1,5 @@
 import { MongoClient } from 'mongodb';
+import fs from "fs-extra";
 
 //para Termux
 //const MongoClient = require("mongodb");

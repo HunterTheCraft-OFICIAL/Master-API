@@ -1,7 +1,7 @@
 import { getTodosPosts } from "../models/postsModels.js";
 
 //para Termux
-//const getTodosPosts = require(""../models/postsModels.js"");
+//const getTodosPosts = require("../models/postsModels.js");
 
 
 export async function listarPosts (req, res)
